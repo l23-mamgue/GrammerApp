@@ -7,19 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Hbm.Api;
 
 namespace GrammerApp
 {
     public partial class Form1 : Form
     {
+
+        private Hbm.Api.Common commonApi;
         public Form1()
         {
             InitializeComponent();
-            Startbutton.BackColor = Color.FromArgb(1, 80, 147);
-            stopbutton.BackColor = Color.FromArgb(1, 80, 147);
-         
+            
+        }
 
-
+        private void detectChannelOnStartup()
+        {
+            //
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -60,6 +64,11 @@ namespace GrammerApp
        
 
         private void button1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
