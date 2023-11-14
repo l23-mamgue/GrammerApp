@@ -36,31 +36,31 @@
             this.logo = new System.Windows.Forms.PictureBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.quantumcapteur = new System.Windows.Forms.TableLayoutPanel();
             this.shimmertable = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.subjvalue = new System.Windows.Forms.Label();
-            this.subjlabel = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.kraftvalue = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.bescvalue = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.edavalue = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.bescvalue = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.kraftvalue = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.subjlabel = new System.Windows.Forms.Label();
+            this.subjvalue = new System.Windows.Forms.Label();
+            this.ProtocolTb = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // backgroundWorker1
@@ -114,57 +114,15 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.panel2.Controls.Add(this.ProtocolTb);
             this.panel2.Controls.Add(this.shimmertable);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.quantumcapteur);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 159);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(447, 587);
             this.panel2.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.Control;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.panel7);
-            this.panel3.Controls.Add(this.panel6);
-            this.panel3.Controls.Add(this.panel5);
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel3.Location = new System.Drawing.Point(1206, 159);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(233, 587);
-            this.panel3.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(2, 7);
-            this.label1.MaximumSize = new System.Drawing.Size(900, 50);
-            this.label1.MinimumSize = new System.Drawing.Size(430, 40);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(430, 40);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "DAQ";
-            // 
-            // quantumcapteur
-            // 
-            this.quantumcapteur.ColumnCount = 3;
-            this.quantumcapteur.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.quantumcapteur.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.quantumcapteur.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.quantumcapteur.Location = new System.Drawing.Point(7, 51);
-            this.quantumcapteur.Name = "quantumcapteur";
-            this.quantumcapteur.RowCount = 2;
-            this.quantumcapteur.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.quantumcapteur.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.quantumcapteur.Size = new System.Drawing.Size(425, 100);
-            this.quantumcapteur.TabIndex = 1;
             // 
             // shimmertable
             // 
@@ -194,101 +152,43 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Shimmer";
             // 
-            // panel4
+            // label1
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel4.Controls.Add(this.subjlabel);
-            this.panel4.Controls.Add(this.subjvalue);
-            this.panel4.Location = new System.Drawing.Point(4, 23);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(221, 100);
-            this.panel4.TabIndex = 0;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(2, 7);
+            this.label1.MaximumSize = new System.Drawing.Size(900, 50);
+            this.label1.MinimumSize = new System.Drawing.Size(430, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(430, 40);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "DAQ";
             // 
-            // subjvalue
+            // panel3
             // 
-            this.subjvalue.AutoSize = true;
-            this.subjvalue.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subjvalue.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.subjvalue.Location = new System.Drawing.Point(116, 18);
-            this.subjvalue.Name = "subjvalue";
-            this.subjvalue.Size = new System.Drawing.Size(24, 31);
-            this.subjvalue.TabIndex = 0;
-            this.subjvalue.Text = "-";
+            this.panel3.BackColor = System.Drawing.SystemColors.Control;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.panel7);
+            this.panel3.Controls.Add(this.panel6);
+            this.panel3.Controls.Add(this.panel5);
+            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(1206, 159);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(233, 587);
+            this.panel3.TabIndex = 2;
             // 
-            // subjlabel
+            // panel7
             // 
-            this.subjlabel.AutoSize = true;
-            this.subjlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subjlabel.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.subjlabel.Location = new System.Drawing.Point(49, 66);
-            this.subjlabel.Name = "subjlabel";
-            this.subjlabel.Size = new System.Drawing.Size(141, 25);
-            this.subjlabel.TabIndex = 1;
-            this.subjlabel.Text = "Subj. Wahrn";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label3.Location = new System.Drawing.Point(95, 64);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 25);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Kraft";
-            // 
-            // kraftvalue
-            // 
-            this.kraftvalue.AutoSize = true;
-            this.kraftvalue.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kraftvalue.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.kraftvalue.Location = new System.Drawing.Point(116, 18);
-            this.kraftvalue.Name = "kraftvalue";
-            this.kraftvalue.Size = new System.Drawing.Size(24, 31);
-            this.kraftvalue.TabIndex = 0;
-            this.kraftvalue.Text = "-";
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel5.Controls.Add(this.label3);
-            this.panel5.Controls.Add(this.kraftvalue);
-            this.panel5.Location = new System.Drawing.Point(3, 155);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(221, 100);
-            this.panel5.TabIndex = 2;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label5.Location = new System.Drawing.Point(37, 62);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(180, 25);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Beschleunigung";
-            // 
-            // bescvalue
-            // 
-            this.bescvalue.AutoSize = true;
-            this.bescvalue.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bescvalue.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.bescvalue.Location = new System.Drawing.Point(116, 18);
-            this.bescvalue.Name = "bescvalue";
-            this.bescvalue.Size = new System.Drawing.Size(24, 31);
-            this.bescvalue.TabIndex = 0;
-            this.bescvalue.Text = "-";
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel6.Controls.Add(this.label5);
-            this.panel6.Controls.Add(this.bescvalue);
-            this.panel6.Location = new System.Drawing.Point(3, 294);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(221, 100);
-            this.panel6.TabIndex = 2;
+            this.panel7.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel7.Controls.Add(this.label7);
+            this.panel7.Controls.Add(this.edavalue);
+            this.panel7.Location = new System.Drawing.Point(3, 435);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(221, 100);
+            this.panel7.TabIndex = 2;
             // 
             // label7
             // 
@@ -312,15 +212,109 @@
             this.edavalue.TabIndex = 0;
             this.edavalue.Text = "-";
             // 
-            // panel7
+            // panel6
             // 
-            this.panel7.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel7.Controls.Add(this.label7);
-            this.panel7.Controls.Add(this.edavalue);
-            this.panel7.Location = new System.Drawing.Point(3, 435);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(221, 100);
-            this.panel7.TabIndex = 2;
+            this.panel6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel6.Controls.Add(this.label5);
+            this.panel6.Controls.Add(this.bescvalue);
+            this.panel6.Location = new System.Drawing.Point(3, 294);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(221, 100);
+            this.panel6.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label5.Location = new System.Drawing.Point(37, 62);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(180, 25);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Beschleunigung";
+            // 
+            // bescvalue
+            // 
+            this.bescvalue.AutoSize = true;
+            this.bescvalue.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bescvalue.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.bescvalue.Location = new System.Drawing.Point(116, 18);
+            this.bescvalue.Name = "bescvalue";
+            this.bescvalue.Size = new System.Drawing.Size(24, 31);
+            this.bescvalue.TabIndex = 0;
+            this.bescvalue.Text = "-";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel5.Controls.Add(this.label3);
+            this.panel5.Controls.Add(this.kraftvalue);
+            this.panel5.Location = new System.Drawing.Point(3, 155);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(221, 100);
+            this.panel5.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.label3.Location = new System.Drawing.Point(95, 64);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(62, 25);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Kraft";
+            // 
+            // kraftvalue
+            // 
+            this.kraftvalue.AutoSize = true;
+            this.kraftvalue.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.kraftvalue.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.kraftvalue.Location = new System.Drawing.Point(116, 18);
+            this.kraftvalue.Name = "kraftvalue";
+            this.kraftvalue.Size = new System.Drawing.Size(24, 31);
+            this.kraftvalue.TabIndex = 0;
+            this.kraftvalue.Text = "-";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel4.Controls.Add(this.subjlabel);
+            this.panel4.Controls.Add(this.subjvalue);
+            this.panel4.Location = new System.Drawing.Point(4, 23);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(221, 100);
+            this.panel4.TabIndex = 0;
+            // 
+            // subjlabel
+            // 
+            this.subjlabel.AutoSize = true;
+            this.subjlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subjlabel.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.subjlabel.Location = new System.Drawing.Point(49, 66);
+            this.subjlabel.Name = "subjlabel";
+            this.subjlabel.Size = new System.Drawing.Size(141, 25);
+            this.subjlabel.TabIndex = 1;
+            this.subjlabel.Text = "Subj. Wahrn";
+            // 
+            // subjvalue
+            // 
+            this.subjvalue.AutoSize = true;
+            this.subjvalue.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.subjvalue.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.subjvalue.Location = new System.Drawing.Point(116, 18);
+            this.subjvalue.Name = "subjvalue";
+            this.subjvalue.Size = new System.Drawing.Size(24, 31);
+            this.subjvalue.TabIndex = 0;
+            this.subjvalue.Text = "-";
+            // 
+            // ProtocolTb
+            // 
+            this.ProtocolTb.Location = new System.Drawing.Point(7, 52);
+            this.ProtocolTb.Multiline = true;
+            this.ProtocolTb.Name = "ProtocolTb";
+            this.ProtocolTb.Size = new System.Drawing.Size(425, 343);
+            this.ProtocolTb.TabIndex = 4;
             // 
             // Form1
             // 
@@ -340,14 +334,14 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -363,7 +357,6 @@
         private System.Windows.Forms.Button Stop;
         private System.Windows.Forms.TableLayoutPanel shimmertable;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TableLayoutPanel quantumcapteur;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label7;
@@ -377,6 +370,7 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label subjlabel;
         private System.Windows.Forms.Label subjvalue;
+        private System.Windows.Forms.TextBox ProtocolTb;
     }
 }
 

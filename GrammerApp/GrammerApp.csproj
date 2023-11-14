@@ -36,8 +36,26 @@
     <Reference Include="Hbm.Api.Common">
       <HintPath>..\..\..\..\Public\Documents\HBM\HBM Common API\API\Hbm.Api.Common.dll</HintPath>
     </Reference>
+    <Reference Include="Hbm.Api.GenericStreaming">
+      <HintPath>..\..\..\..\Public\Documents\HBM\HBM Common API\API\Hbm.Api.GenericStreaming.dll</HintPath>
+    </Reference>
+    <Reference Include="Hbm.Api.Logging">
+      <HintPath>..\..\..\..\Public\Documents\HBM\HBM Common API\API\Hbm.Api.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Hbm.Api.Pmx">
+      <HintPath>..\..\..\..\Public\Documents\HBM\HBM Common API\API\Hbm.Api.Pmx.dll</HintPath>
+    </Reference>
+    <Reference Include="Hbm.Api.QuantumX">
+      <HintPath>..\..\..\..\Public\Documents\HBM\HBM Common API\API\Hbm.Api.QuantumX.dll</HintPath>
+    </Reference>
+    <Reference Include="Hbm.Api.Scan">
+      <HintPath>..\..\..\..\Public\Documents\HBM\HBM Common API\API\Hbm.Api.Scan.dll</HintPath>
+    </Reference>
     <Reference Include="Hbm.Api.SensorDB">
       <HintPath>..\..\..\..\Public\Documents\HBM\HBM Common API\API\Hbm.Api.SensorDB.dll</HintPath>
+    </Reference>
+    <Reference Include="Hbm.Api.Utils">
+      <HintPath>..\..\..\..\Public\Documents\HBM\HBM Common API\API\Hbm.Api.Utils.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
